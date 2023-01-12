@@ -67,10 +67,6 @@ jobs:
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_types: commit
-          plugin_posts: yes
-          plugin_posts_limit: 4
-          plugin_posts_source: hashnode
-          plugin_posts_user: .user.login
           plugin_rss: yes
           plugin_rss_limit: 4
           plugin_rss_source: https://uhgenie7.github.io/blog/rss
