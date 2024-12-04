@@ -343,7 +343,7 @@
                     <rect mask="url(#languages-bar)" x="0" y="0" width="153.49379344376663" height="8" fill="#f1e05a"/>
                     <rect mask="url(#languages-bar)" x="153.49379344376663" y="0" width="82.49867417635865" height="8" fill="#3178c6"/>
                     <rect mask="url(#languages-bar)" x="235.9924676201253" y="0" width="82.06034411858961" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="318.0528117387149" y="0" width="74.663524393737" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="318.0528117387149" y="0" width="74.663524393737" height="8" fill="#663399"/>
                     <rect mask="url(#languages-bar)" x="392.7163361324519" y="0" width="62.14867942293349" height="8" fill="#e34c26"/>
                     <rect mask="url(#languages-bar)" x="454.8650155553854" y="0" width="2.3823760461244827" height="8" fill="#878787"/>
                     <rect mask="url(#languages-bar)" x="457.2473916015099" y="0" width="2.359415900241342" height="8" fill="#c6538c"/>
@@ -370,7 +370,7 @@
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#563d7c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                            <path fill="#663399" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         CSS
                     </div>
@@ -2472,6 +2472,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -2923,6 +2928,7 @@
                                 <g transform="translate(720, 0)">
                                     <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
                             </g>
                         </svg>
@@ -3012,7 +3018,7 @@
                                 <div class="title">
                                     <span class="prefix">Super</span>
                                     developer
-                                    <span class="gh">ranked 578k out of 147m users</span>
+                                    <span class="gh">ranked 578k out of 150m users</span>
                                 </div>
                                 <div class="text">Published 58 public repositories</div>
                             </div>
@@ -3059,7 +3065,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="81.53148528405204 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="81.74366872005477 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -3271,7 +3277,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Influencer
-                                    <span class="gh">ranked 1.77m out of 147m users</span>
+                                    <span class="gh">ranked 1.78m out of 150m users</span>
                                 </div>
                                 <div class="text">Followed by 9 users</div>
                             </div>
@@ -3309,7 +3315,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 3.38m out of 229m repositories</span>
+                                    <span class="gh">ranked 3.39m out of 231m repositories</span>
                                 </div>
                                 <div class="text">Maintaining a repository with 5 stars</div>
                             </div>
@@ -3355,7 +3361,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 5.47m out of 229m repositories</span>
+                                    <span class="gh">ranked 5.47m out of 231m repositories</span>
                                 </div>
                                 <div class="text">Maintaining or created a repository which has been forked 1 time</div>
                             </div>
@@ -3407,7 +3413,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 3 Dec 2024, 09:58:25 (timezone Asia/Seoul) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 4 Dec 2024, 09:58:17 (timezone Asia/Seoul) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
